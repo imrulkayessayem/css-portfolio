@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c97c3ba763.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/Ellipse 1 (1).png">
+    <title>Imrul Kayes Sayem</title>
+</head>
+<body>
+    <header id="main-header">
+        <div class="container">
+            <!-- Navbar -->
+            <nav id="navbar">
+                <div class="logo">
+                    <img src="img/Ellipse 1 (1).png" alt="logo">
+                </div>
+
+                <div class="nav-content">
+                    <ul>
+                        <li class="toggle"></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Skills</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <!-- header content -->
+
+            <div class="header-content">
+                <div>
+                <h1>
+                    MD IMRUL KAYES SAYEM
+                </h1>
+
+                <p>a web developer</p>
+                <a href=""><i class="fas fa-chevron-down"></i></a>
+            </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About -->
+
+    <section id="about">
+        <div class="container">
+            <div class="about-header">
+                <h1>ABOUT ME</h1>
+            </div>
+            <div class="about-content">
+                
+                <img class="my-img" src="img/my-img.jpg_large" alt="">
+                <div>
+                <h1>FRONT-END DEVELOPER</h1>
+                <p>I am Imrul Kayes. I am a simple , creative, enthusiastic and fun person.
+                   I always like to create something on my own which is helpful for others.</p>
+
+                <p class="last-p">I have experience in HTML5, CSS3, and something Javascript.</p>
+                <a href="#">Read More</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SERVICE -->
+
+    <section id="service">
+        <div class="container">
+            <div class="service-header">
+                <h1>MY SERVICE</h1>
+            </div>
+
+            <div class="service-main-box">
+
+                <div class="service-box">
+                    <i class="fas fa-laptop-code"></i>
+                    <h2>Web  Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id laboriosam maxime nam neque nulla
+                     placeat quam repudiandae similique ullam?</p>
+                </div>
+
+                <div class="service-box">
+                    <i class="fab fa-figma"></i>
+                    <h2>Web  Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id laboriosam maxime nam neque nulla
+                     placeat quam repudiandae similique ullam?</p>
+                </div>
+
+                <div class="service-box">
+                    <i class="fas fa-camera-retro"></i>
+                    <h2>Photography</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, id laboriosam maxime nam neque nulla
+                     placeat quam repudiandae similique ullam?</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- MY SILLS -->
+
+    <section id="skills">
+        <div class="container">
+            <div class="skills-header">
+                <h1>MY SKILLS</h1>
+            </div>
+
+            <div class="skills-content">
+
+            <div class="card">
+                <div class="box">
+                    <div class="parcent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h2>95<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="text">HTML</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <div class="parcent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h2>85<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="text">CSS</h2>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="box">
+                    <div class="parcent">
+                        <svg>
+                            <circle cx="70" cy="70" r="70"></circle>
+                            <circle cx="70" cy="70" r="70"></circle>
+                        </svg>
+                        <div class="number">
+                            <h2>10<span>%</span></h2>
+                        </div>
+                    </div>
+                    <h2 class="text">JAVASCRIPT</h2>
+                </div>
+            </div>
+
+        </div>
+
+        </div>
+    </section>
+
+    <!-- DAY AND NIGHT JAVA SCRIPT -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script type="text/javascript">
+      $(document) .ready (function(){
+          $('.toggle').click(function(){
+              $('.toggle').toggleClass('active')
+              $('.toggle').toggleClass('toggler-color')
+              $('body').toggleClass('day')
+          })
+      })
+    </script>
+
+</body>
+</html>
