@@ -219,7 +219,7 @@ body.day .header-content i {
 }
 
 body.day .about-content img {
-    border: 5px solid #0e0438;
+    border: 5px solid rgb(3, 3, 211);
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
 }
 
@@ -240,9 +240,10 @@ body.day .about-content img {
     top: 0;
     left: 0;
     background: #626262;
-    width: 900px;
+    width: 575px;
     height: 400px;
     transform: rotate(5deg);
+    border: 5px solid #fff;
     z-index: -1;
 }
 
@@ -484,4 +485,73 @@ svg circle:nth-child(2) {
 .card:nth-child(3) svg circle:nth-child(2) {
     stroke: #00ff43;
     stroke-dashoffset: calc(440 - (440 * 10) / 100);
+}
+
+
+/* Projects */
+
+#projects {
+
+}
+
+.projects-main-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.projects-main-box .projects-box img {
+    height: 200px;
+}
+
+/* Contact */
+
+#contact {
+    margin-top: 10rem;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+
+.contact-header h1 {
+    font-size: 4rem;
+}
+
+.contact-content {
+  
+}
+
+.contact-content .contact-input input {
+    margin-bottom: 2rem;
+    height: 40px;
+    width: 100%;
+    background: none;    
+    outline: none;
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.123);
+}
+
+.contact-content .contact-input input:hover::placeholder {
+    transform: translateY(-30px);
+}
+
+.contact-content .contact-input textarea {
+    margin-bottom: 2rem;
+    width: 100%;
+    background: none;    
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.123);
+    color: #fff;
+    overflow: auto;
+}
+
+.contact-content .contact-input textarea:hover::placeholder {
+    transform: translateY(-30px);
+}
+
+::placeholder {
+    color: #fff;
+    transition: all .5s ease-in; 
 }
