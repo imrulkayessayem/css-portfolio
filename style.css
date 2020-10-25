@@ -87,6 +87,8 @@ body.day span {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
 .nav-content ul li {
     margin: 0 2rem;
 }
@@ -629,6 +631,10 @@ body.day .card:nth-child(3) svg circle:nth-child(2) {
     border-radius: 7px;
 }
 
+body.day .projects-main-box .projects-box {
+    border: 5px solid #00B0DC;
+}
+
 .projects-main-box .projects-box .card {
     width: 100%;
     height: 100%;
@@ -759,7 +765,12 @@ body.day .card:nth-child(3) svg circle:nth-child(2) {
     color: #fff;
     border-radius: 7px;
     transition: all .5s ease-in;
-} 
+}
+
+body.day .contact-form .submit input {
+    color: #000;
+    opacity: .7;
+}
 
 .contact-form .submit input:hover {
     background: #fff;
@@ -854,12 +865,7 @@ footer p {
     }
 }
 
-@media (max-width: 294px) {
-    .header-content i {
-        display: none;
-    }
-    
-}
+
 
 @media (max-width: 748px) {
 
@@ -1082,6 +1088,11 @@ footer p {
         flex-direction: column;
         margin-bottom: 5rem;
     }
+
+    .contact-address .address {
+        margin-bottom: 2rem;
+    }
+    
     
 }
 
